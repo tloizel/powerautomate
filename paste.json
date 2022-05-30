@@ -1,0 +1,94 @@
+{
+    "type": "object",
+    "properties": {
+        "@@odata.context": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "replyToId": {},
+        "etag": {
+            "type": "string"
+        },
+        "messageType": {
+            "type": "string"
+        },
+        "createdDateTime": {
+            "type": "string"
+        },
+        "lastModifiedDateTime": {
+            "type": "string"
+        },
+        "lastEditedDateTime": {},
+        "deletedDateTime": {},
+        "subject": {},
+        "summary": {},
+        "chatId": {
+            "type": "string"
+        },
+        "importance": {
+            "type": "string"
+        },
+        "locale": {
+            "type": "string"
+        },
+        "webUrl": {},
+        "channelIdentity": {},
+        "policyViolation": {},
+        "eventDetail": {},
+        "from": {
+            "type": "object",
+            "properties": {
+                "application": {},
+                "device": {},
+                "user": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "string"
+                        },
+                        "displayName": {
+                            "type": "string"
+                        },
+                        "userIdentityType": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "type": "object",
+            "properties": {
+                "contentType": {
+                    "type": "string"
+                },
+                "content": {
+                    "type": "string"
+                },
+                "plainTextContent": {
+                    "type": "string"
+                }
+            }
+        },
+        "attachments": {
+            "type": "array"
+        },
+        "mentions": {
+            "type": "array"
+        },
+        "reactions": {
+            "type": "array"
+        },
+        "messageLink": {
+            "type": "string"
+        },
+        "threadType": {
+            "type": "string"
+        },
+        "conversationId": {
+            "type": "string"
+        }
+    }
+}
